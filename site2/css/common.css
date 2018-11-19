@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+}
+
+
+.pcontainer {
+  display: block;
+  width: 1536px;
+  margin: 0 auto;
+  background-color: rgba(148, 0, 111,1);
+}
+
+.pcontainer::after,
+.pcontainer::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pnav {
+  position: fixed;
+  float: left;
+  display: inline-block;
+  width: 153.6px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px repeat(6, 40px);
+}
+.pnav .logo img {
+  width: 100px;
+}
+.pcontainer .pnav a {
+    display: block;
+    height: 100%;
+}
+.pcontainer .pnav a:hover {
+  text-decoration: none;
+}
+.pnav .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pnav .item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  font-size: 10px;
+  color: white;
+}
+
+.pnav .item .pnavItem {
+  padding-right: 10px;
+}
+
+.pnav .item:hover {
+  background-color: rgba(255, 56, 255, .3);
+  padding-left: 80px;
+  transition: padding-left 1s;
+
+  -moz-transition: padding-left 1s;
+  /* Firefox 4 */
+  -webkit-transition: padding-left 1s;
+  /* Safari 和 Chrome */
+  -o-transition: padding-left 1s;
+  /* Opera */
+  cursor: pointer;
+}
+
+.content {
+  float: right;
+  display: inline-block;
+  width: 90%;
+  background-color: rgba(220, 220, 220, 1);
+}
+
+.clearFloat::after,
+.clearFloat::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content .head {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: 40px;
+  background-color: rgba(148, 0, 111,1);
+}
+
+.content .head .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .head .item a {
+  color: white;
+  font-size: 10px;
+  display: inline-block;
+  padding: 2px 20px;
+  border-radius: 2px;
+  background-color: rgba(255, 99, 185, 1)
+
+}
+
+.content .head .item a:hover {
+  text-decoration: none;
+  background-color: rgba(99, 140, 255,1);
+  cursor: pointer;
+}
+
+.content .col1-content {
+  margin: 10px 20px 0 20px;
+  width: 56%;
+  float: left;
+}
+
+.content .main-content .img {
+  background-color: white;
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(200, 200, 200, 1);
+}
+
+.content .main-content .img::after,
+.content .main-content .img::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content .main-content .rimg {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  float: left;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.content .main-content img {
+  width: 100%;
+}
+
+.content .main-content .name {
+  float: left;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.content .main-content .name textarea {
+  background-color: rgba(230, 230, 230, 1);
+  border-width: 0;
+  padding: 10px;
+}
+
+.content .main-content .name .name-text {
+  font-size: 40px;
+}
+
+.content .main-content .mainIfo {
+  background-color: white;
+  border-style: solid;
+  border-color: rgba(200, 200, 200, 1);
+  border-width: 0 1px 0 1px;
+}
+
+.mainIfo .atrr {
+  border-style: solid;
+  border-color: rgba(200, 200, 200, 1);
+  border-width: 0 0 1px 0;
+  padding: 10px 60px;
+}
+
+.Dt {
+  width: 35%;
+  float: left;
+  margin-top: 10px;
+}
+
+.Nekoitem {
+  background-color: white;
+  border: 1px solid rgba(200, 200, 200, 1);
+  padding: 20px;
+  width: 100%;
+  border-radius: 2px;
+  position: relative;
+  bottom: 0;
+}
+
+.Nekoitem .date {
+  font-size: 10px;
+  color: rgba(151, 151, 151, 1);
+}
+
+.Nekoitem .date span {
+  padding-right: 10px;
+}
+
+.Nekoitem .title {
+  font-family: '微软雅黑';
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Nekoitem .sim-con {
+  font-size: 10px;
+}
+
+.main-content .item {}
+.Nekoitem:hover {
+  border-radius: 2px;
+  box-shadow: 4px 4px 4px rgba(100,100,100,1);
+  bottom:15px;
+  transition: bottom 0.3s;
+
+  -moz-transition: bottom 0.3s;
+  /* Firefox 4 */
+  -webkit-transition: bottom 0.3s;
+  /* Safari 和 Chrome */
+  -o-transition: bottom 0.3s;
+  /* Opera */
+
+
+}
+.Nekoitem:hover img {
+  filter: brightness(90%);
+}
+
+.recommend {
+  margin-top: 50px;
+}
+
+.NekoTitle {
+  background-color: white;
+  border: 1px solid rgba(200, 200, 200, 1);
+  padding: 10px 20px;
+  font-size: 12px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.NekoTitle span {
+  padding-right: 10px
+}
+
+.recommend .item {
+  width: 25%;
+  float: left;
+}
+
+.content .aboutMe {
+  background-color: rgba(255, 41, 166, 1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30px;
+}
+
+.FlexCenterRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+.content .web-ifo {
+  height: 30px;
+  background-color: rgba(148, 0, 111,1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgba(230, 230, 230, 1);
+  font-size: 12px;
+}

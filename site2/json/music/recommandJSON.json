@@ -1,0 +1,29 @@
+{
+  "music":[
+          {
+            "releasetime":"2018年11月24日",
+            "title":"某一天，灵梦从此丢失了节操",
+            "description":"妖历2019年11月23日21:9 ，博丽神社巫女竟为10000日元出卖了节操......",
+            "reImage":"./resources/images/Konachan.png"
+          },
+          {
+            "releasetime":"2018年11月14日",
+            "title":"蕾米莉亚大小姐每一天都威风堂堂",
+            "description":"妖历2019年11月13日20:11 ，蕾米莉亚大小姐又使出了威风堂堂的------抱头蹲防......",
+            "reImage":"./resources/images/Konachan.png"
+          },
+          {
+            "releasetime":"2018年11月12日",
+            "title":"某处，⑨-----'幻想乡最强'",
+            "description":"妖历2019年11月13日21:9 ，琪露诺昂首叉腰，大笑：'我可是最强的'",
+            "reImage":"./resources/images/Konachan.png"
+          },
+          {
+            "releasetime":"2018年11月18日",
+            "title":"某一天，灵梦家里发出了一阵惨叫",
+            "description":"妖历2019年11月23日21:9 ，正在山间的闲者，扇掩面，微笑着拿着一万元......",
+            "reImage":"./resources/images/Konachan.png"
+          }
+
+          ]
+}

@@ -1,0 +1,20 @@
+.ClearFloat::after,
+.ClearFloat::before
+{
+   content: "";
+   display: block;
+   clear: both;
+}
+.clear-float::after,
+.clear-float::before
+{
+   content: "";
+   display: block;
+   clear: both;
+}
+.box-content-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

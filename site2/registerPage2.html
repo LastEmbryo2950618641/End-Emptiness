@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>选择头像</title>
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js">
+  </script>
+
+  <link rel="stylesheet" href="./css/NekoCommon.css">
+  <link rel="icon" href="./resources/logo/logoIcon.png">
+  <link rel="stylesheet" href="./css/loginPage.css">
+  <link rel="stylesheet" href="./css/registerPage2.css">
+
+</head>
+
+<body>
+  <div class="input-name">
+    <div class="grid-input">
+      <div class="input box-content-center"><input type="text" placeholder="为你选一个名字呗！"></div>
+      <div class="box-content-center"><a href="javascript:void(0);" onclick="location.reload(true)" >取消</a></div>
+      <div class="box-content-center"><a href="main.html">下一步</a></div>
+    </div>
+  </div>
+  <img class="bk-i" src="./resources/images/shenshe.jpg" alt="">
+
+  <div class="web-Ifo">
+    <div></div>
+    <div class="wenA center">Copyright © 2013-2018 EndEmp</div>
+    <div></div>
+  </div>
+  <div class="body">
+    <div class="cover" id="cover"></div>
+    <div></div>
+    <div class="up-load-image">
+      <div class="logo center">
+        <img src="./resources/logo/logo.png" alt="">
+
+      </div>
+      <div class="box-content-center"><label for="file">
+          <div class="select-btn ">选择</div>
+        </label></div>
+      <div class="up-load-box">
+
+        <div id="image"></div>
+        <input type="file" id="file">
+        <div class="box-content-center btn-box"><button id="clipBtn" onclick="isClip()">确定</button></div>
+      </div>
+      <div></div>
+      <div class="tips">注:鼠标可拖动图片，滑轮可缩放图片，自定义你喜欢的头像吧。</div>
+
+      <div class="preview-panl" id="preview-panl">
+        <div class="box-content-center preview">
+          <div id="preview"></div>
+        </div>
+
+        <div class="preview-btn-cancel box-content-center"><a href="javascript:void(0);" onclick="notClip()">取消</a></div>
+        <div class="preview-btn-next box-content-center"><a id="next1" href="javascript:void(0);">下一步</a></div>
+      </div>
+
+    </div>
+  </div>
+    <script src="./js/hammer.min.js"></script>
+    <script src="./js/iscroll-zoom-min.js"></script>
+    <script src="./js/lrz.all.bundle.js"></script>
+    <script type="text/javascript" src="./js/Photoclip.js">
+    </script>
+    <script type="text/javascript" src="./js/registerPage2.js">
+    </script>
+
+
+</body>
+
+
+</html>

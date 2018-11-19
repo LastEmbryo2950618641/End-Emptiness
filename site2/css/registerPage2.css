@@ -1,0 +1,146 @@
+
+.body {
+  display: grid;
+  padding: 0;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 100vh;
+}
+
+.up-load-image {
+  background-color: rgba(255,255,255,0.8);
+  height:100%;
+  width:100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+.up-load-image .tips {
+  font-size: 12px;
+  padding-left: 300px;
+}
+.up-load-box {
+ grid-column: 1/3;
+}
+
+.up-load-image .logo img {
+  width: 50%;
+  padding: 0 10px;
+}
+.select-btn {
+  display: inline;
+padding:10px 50px;
+background-color: rgba(129, 242, 255, 1);
+color: white;
+text-decoration:none;
+  border-radius: 2px;
+}
+.select-btn:hover {
+  background-color: rgba(40, 201, 255, 1);
+
+
+}
+#file {
+  display: none;
+}
+#image {
+
+  height:80%;
+}
+#clipBtn {
+  height: 30px;
+  width: 200px;
+  background-color:rgba(255, 124, 203, 1);
+  border:0;
+  font-size: 12px;
+  color: white;
+    border-radius: 2px;
+}
+#clipBtn:hover {
+  background-color:rgba(255, 55, 175, 1);
+}
+.btn-box {
+  height: 100px;
+}
+.preview-panl {
+  margin-left: 27%;
+  margin-top:10%;
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  display: none;
+  grid-template-rows: 4fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(255,255,255,1);
+}
+.preview {
+  grid-column: 1/3;
+}
+#preview {
+  height:300px;
+  width: 300px;
+  background-color: #666;
+  border-radius: 50%;
+}
+.preview-panl .preview-btn-cancel a,
+.preview-panl .preview-btn-next a{
+
+  background-color: rgba(129, 137, 255, 1);
+  padding: 10px 40px;
+  color: white;
+  text-decoration: none;
+
+}
+.cover {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.8);
+}
+.input-name {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  margin-top: 250px;
+   display: none;
+
+
+}
+.grid-input {
+  width: 40%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(255,255,255,1);
+  margin: 0 auto;
+  border-radius: 2px;
+
+}
+.grid-input .input {
+  grid-column: 1/3;
+}
+.grid-input .input input {
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: lighter;
+  border: 0;
+  border-radius: 2px;
+  outline: none;
+  background-color: rgba(200,200,200,1);
+  padding:10px 20px;
+}
+
+.input-name a {
+  background-color: rgba(0,200,200,1);
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.input-name a:hover {
+  background-color: rgba(0,150,150,1);
+}
